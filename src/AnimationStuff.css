@@ -1,0 +1,25 @@
+
+
+.RootAnim {
+    transition: all 1s ease;
+}
+
+.useSlide {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+.useSlide.setZero {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.SlideUp {
+    transform: translateY(50%);
+    opacity: 0; 
+}
+
+.SlideUp.setZero {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
